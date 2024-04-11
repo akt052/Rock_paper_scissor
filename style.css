@@ -1,0 +1,143 @@
+*{
+    background: none;
+    padding: 0;
+    margin: 0;
+}
+
+.parent-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+body{
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+}
+
+.header-container{
+    color: whitesmoke;
+    padding: 15px;
+    background-color: #414a4c;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.container-one, .container-two{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.icon{
+    height: 50px;
+    width: 50px;
+}
+
+.body-container{
+    background-color: whitesmoke;
+    display: flex;
+    flex: 1 1 auto;
+}
+
+.nav-bar-container{
+    background-color: #3b444b;
+}
+
+.nav-bar-container{
+    padding: 30px 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.social-icons{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.icon-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero{
+    display: flex;
+    flex: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    padding: 20px;
+}
+
+.game-area{
+    background-color: #232b2b   ;
+    height: 75%;
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.scoreboard-container{
+    display: flex;
+}
+
+.console-container{
+    flex: 1 1 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.scoreboard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.scorecard{
+    display: flex;
+}
+
+.game-console{
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+    ;
+}
+
+.player-console, .computer-console{
+    height: 250px;
+    width: 250px;
+    border: 2px solid white;
+    display: flex;
+}
+
+.player-console{
+    margin-right: 100px;
+}
+
+.computer-console{
+    margin-left: 100px;
+}
+
+.choise{
+    height: 50px;
+    width: 50px;
+}
