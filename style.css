@@ -109,17 +109,28 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    font-weight: bolder;
+    color: white;
+    font-size: 30px;
 }
 
 .scorecard{
     display: flex;
+    gap: 400px;
 }
 
 .game-console{
     display: flex;
     align-items: center;
-    justify-content: space-around
-    ;
+    justify-content: space-around;
+    gap: 250px;
+}
+
+.player-scorecard, .computer-scorecard{
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+    align-items: center;
 }
 
 .player-console, .computer-console{
@@ -129,15 +140,21 @@ body{
     display: flex;
 }
 
-.player-console{
+/* .player-console{
     margin-right: 100px;
 }
 
 .computer-console{
     margin-left: 100px;
+} */
+
+.selections{
+    display: flex;
+    gap: 50px;
+    padding: 20px;
 }
 
-.choise{
+.choose-icon{
     height: 50px;
     width: 50px;
 }
