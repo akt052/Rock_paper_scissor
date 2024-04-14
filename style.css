@@ -104,7 +104,7 @@ body{
     gap: 50px;
 }
 
-.scoreboard{
+.scoreboard, .result{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -148,7 +148,7 @@ body{
     margin-left: 100px;
 } */
 
-.selections{
+.player-selection{
     display: flex;
     gap: 50px;
     padding: 20px;
@@ -157,4 +157,12 @@ body{
 .choose-icon{
     height: 50px;
     width: 50px;
+}
+
+button{
+    all: unset; 
+}
+
+.result{
+    min-height: 50px;
 }

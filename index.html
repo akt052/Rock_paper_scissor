@@ -65,7 +65,7 @@
                                     <div>
                                         Player
                                     </div>
-                                    <div class="score">
+                                    <div id="player-score">
                                         0
                                     </div>
                                 </div>
@@ -73,7 +73,7 @@
                                     <div>
                                         Computer
                                     </div>
-                                    <div class="score">
+                                    <div id="computer-score">
                                         0
                                     </div>
                                 </div>
@@ -84,25 +84,30 @@
                         <div class="game-console">
 
                             <div class="player-console">
-    
                             </div>
                             <div class="computer-console">
-    
                             </div>
                         </div>
                     </div>
                     <div class="player-selection">
-                        <div class="selections">
-                            <img class="choose-icon" src="./icons/stone.png" alt="">
-                            <img class="choose-icon" src="./icons/toilet-paper.png" alt="">
-                            <img class="choose-icon" src="./icons/scissor.png" alt="">
-                        </div>
+                            <button class="selection" id="0">
+                                <img class="choose-icon" src="./icons/stone.png" alt="">
+                            </button>
+                            <button class="selection" id="1">
+                                <img class="choose-icon" src="./icons/toilet-paper.png" alt="">
+                            </button>
+                            <button class="selection" id="2">
+                                <img class="choose-icon" src="./icons/scissor.png" alt="">
+                            </button>
 
+                    </div>
+                    <div class="result">
+                        
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <script src="./index.html"></script>
+    <script src="./script.js"></script>
 </body>
 </html>
